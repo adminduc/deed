@@ -1,0 +1,41 @@
+body{
+    font-size: 1rem;
+}
+.Describe{
+    margin-top: 1rem;
+    background-color: black;
+    padding: 5rem 0;
+}
+.title-child-content{
+        margin: 1.3rem 0;
+        font-size: 4rem;
+        font-weight: 700;
+        color: floralwhite;
+}
+.describe-child{
+    margin: auto;
+    max-width: 1080px;
+    width: 100%;
+    height: auto;
+    padding: 2.5rem 2.6rem 2rem 5.5rem;
+    background-color: #411632;
+    border-radius: 10px;
+}
+.describe-child ul{
+    text-align: left;
+}
+.describe-child ul li{
+    padding: .7vw 0;
+    font-size: 1.5rem !important;
+    color: hsl(0, 0%, 95%);
+    font-weight: 500;
+}
+.Describe div:nth-child(3){
+    margin-top: 3rem;
+}
+
+/* @media screen and (max-width: 688px ) {
+    .title-child-content{
+        font-size: 1.9rem;
+}
+} */
